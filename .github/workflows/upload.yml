@@ -20,13 +20,15 @@ jobs:
         run: |
           apt-get update
           apt-get install -y sudo git ca-certificates
-          apt-get install -y equivs curl git devscripts debhelper lintian build-essential automake autotools-dev cmake g++
+          apt-get install -y equivs curl git devscripts debhelper lintian build-essential automake autotools-dev cmake g++ gnupg2 curl
       
       - name: Checkout Source
         uses: actions/checkout@v4
       
       - name: Add Repository
-        run: echo "deb [trusted=yes] http://download.opensuse.org/repositories/home:/LingmoOS/Debian_Testing/ /" > /etc/apt/sources.list.d/lingmo.list
+        run: |
+          echo 'deb http://download.opensuse.org/repositories/home:/LingmoOS/Debian_Testing/ /' | tee /etc/apt/sources.list.d/home:LingmoOS.list
+          curl -fsSL https://download.opensuse.org/repositories/home:LingmoOS/Debian_Testing/Release.key | gpg --dearmor | tee /etc/apt/trusted.gpg.d/home_LingmoOS.gpg > /dev/null
 
       - name: Update repository
         run: apt-get update -y
