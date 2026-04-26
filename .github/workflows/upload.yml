@@ -34,7 +34,7 @@ jobs:
         run: apt-get update -y
 
       - name: Install build dependencies
-        run: mk-build-deps -i -t "apt-get --yes" -r
+        run: apt build-dep . || true
 
       - name: Build source package
         run: |
