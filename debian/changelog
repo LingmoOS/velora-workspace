@@ -1,0 +1,13 @@
+velora-workspace (5:5.0.0.lingmo.2) unstable; urgency=medium
+
+  [ Lingmo OS Team ]
+  * New release (5.0.0).
+
+ -- Lingmo OS Team <team@lingmo.org>  Sun, 26 Apr 2026 18:05:00 +0800
+
+velora-workspace (5:5.0.0.lingmo.1) canary; urgency=medium
+
+  [ Lingmo OS Team ]
+  * New release.
+
+ -- Lingmo OS Team <team@lingmo.org>  Sat, 21 Feb 2026 15:50:00 +0800

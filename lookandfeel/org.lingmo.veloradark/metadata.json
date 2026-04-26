@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "team@lingmo.org",
+                "Name": "Lingmo OS Team",
+                "Name[zh_CN]": "Lingmo OS 团队",
+                "Name[zh_TW]": "Lingmo OS 團隊"
+            }
+        ],
+        "Category": "",
+        "Description": "Velora Dark",
+        "Description[zh_CN]": "Velora 深色主题",
+        "Description[zh_TW]": "Velora Dark",
+        "Id": "org.lingmo.veloradark.desktop",
+        "License": "GPLv2+",
+        "Name": "Velora Dark",
+        "Name[zh_CN]": "Velora 深色",
+        "Name[zh_TW]": "Velora Dark",
+        "Website": "https://www.lingmo.org"
+    }
+}

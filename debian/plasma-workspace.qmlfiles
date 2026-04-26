@@ -1,0 +1,30 @@
+-rootPath
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/taskmanager
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/notificationmanager
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/lingmo/velora/components
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/lookandfeel
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/holidayevents
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/systemtray
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/kicker
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/keyboardindicator
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/digitalclock
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/appmenu
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/clipboard
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/battery
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/sessions
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/shell
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/containmentlayoutmanager
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/mpris
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/wallpapers/image
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/trianglemousefilter
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/timezoneselector
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/osd
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/keyboardlayout
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/dialogs
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/dbus
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/components
+    debian/plasma-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/calendar
+-qmlFiles
+    **/*.qml
+-qrcFiles
+    krunner/qml/krunner.qrc
