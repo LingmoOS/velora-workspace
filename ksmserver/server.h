@@ -154,7 +154,7 @@ public Q_SLOTS: // public dbus interface
     void saveCurrentSessionAs(const QString &);
     QStringList sessionList();
 
-    void openSwitchUserDialog();
+    // void openSwitchUserDialog();
     bool closeSession();
 
 Q_SIGNALS:
