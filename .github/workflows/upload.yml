@@ -38,7 +38,7 @@ jobs:
 
       - name: Build source package
         run: |
-          dpkg-buildpackage -S -us -uc -d
+          dpkg-buildpackage -S -us -uc -d -nc
       
       - name: Collect files
         run: |
