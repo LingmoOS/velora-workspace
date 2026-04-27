@@ -33,12 +33,12 @@ jobs:
       - name: Update repository
         run: apt-get update -y
 
-      - name: Install build dependencies
-        run: apt build-dep . || true
+      # - name: Install build dependencies
+      #   run: apt build-dep . || true
 
       - name: Build source package
         run: |
-          dpkg-buildpackage -S -us -uc
+          dpkg-buildpackage -S -us -uc -d
       
       - name: Collect files
         run: |
